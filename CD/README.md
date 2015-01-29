@@ -3,29 +3,13 @@
 - [Diagram klas, grafika](https://raw.githubusercontent.com/rszczers/Indeks/master/CD/cd.jpg)
 - [Diagram klas, plik źródłowy](https://github.com/rszczers/Indeks/raw/master/CD/cd.uml)
 
-
-
-
-###Konwencje
-
 Trzymając się zaleceń, diagram wykonany jest we Whitestar UML. 
-Tutaj chciałbym zwrócić uwagę na kilka szczegółów. 
-
-Chcąc zaznaczyć implementowanie interfejsu przez klasę, program kreśli linię
-ciągłą między klasą a interfejsem. Słuszniej byłoby, jak mi się wydaje, zamiast tego użyć przerywanej linii
-zakończonej białym grotem. Dlatego tam gdzie klasy implementują
-interfejs uznałem, że rozsądniej będzie zaznaczyć implementację przez
-generalizację, niż używać notacji proponowanej przez program.
-
-Smutno, że Whitestar nie umie listować prototypów metod określonych w
-interfejsach. Ze względu na to zupełnie niewyraźnie zaznaczone jest na diagramie przejście z wysokopoziomowych modeli do klas,
-które zajmują się obsługą bazy danych.
 
 
 ###Szczegóły projektowe
 
 Projekt oparty jest na architekturze MVC. Kontrolery realizują wzorzec
-strategii, Widoki – kompozyt, relacja Modele-Widoki – wzorzec obserwer.
+strategii, Widoki – kompozyt, relacja Modele-Widoki – wzorzec obserwer, klasy z prefiksem DOA - wzorzec Data Access Object (no, prawie…)
 
 
 Projektując aplikację miałem na uwadze wykonanie jej – tutaj pozwolę sobie na małą krotochwilę – w _technologii php_ i wydaje mi się, że nieznacznie czuć to w kilku miejscach.
